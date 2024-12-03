@@ -1,0 +1,77 @@
+1
+mkdir kishan018
+cd kishan018
+git init
+ls
+ls -a
+git config user.name"KishanGowdaR"
+git config user.email"ffdemonyt16@gmail.com"
+git clone https://github.com/KishanGowdaR/Lab.git
+vi sui.c
+git add sui.c
+git commit -m "Kishan's First commit to Sui.c file"
+git push -u origin
+  
+2
+ mkdir kishan018
+cd kishan018
+git init
+git clone https://github.com/KishanGowdaR/Lab.git
+ls
+cd lab
+git branch
+git branch feature
+git merge feature
+git branch --merged main
+
+git branch a
+git checkout a
+vi a1.txt
+git add a1.txt
+git stash
+git checkout b
+vi b1.txt
+git add b1.txt
+git commit -m "First commit"
+git stash list
+git stash pop
+
+git branch feature-branch
+git merge feature-branch -m"merging with main" --no-ff
+git branch --merged main
+git push --set-upstream  origin feature-branch
+
+3
+cd lab
+git init
+git clone https://github.com/KishanGowdaR/Lab.git
+git fetch
+git branch b1
+git branch b2
+git log
+git log --oneline
+git branch
+git checkout b1
+vi 3a.txt
+git add 3a.txt
+git commit -m"1st commit to 3a" X3
+git checkout b2
+git rebase b1   
+git checkout main
+
+vi 3b.txt
+git add 3b.txt
+git commit -m"1st commit to 3b"
+git tag v1.0 (commit code)
+git tag
+full two times
+git show v1.1
+
+git branch
+git checkout b1
+vi 3c.txt
+git add 3c.txt
+git commit -m"1st commit"
+git checkout b2
+git cherry-pick (commit code)
+ls
