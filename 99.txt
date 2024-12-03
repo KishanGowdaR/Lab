@@ -1,0 +1,12 @@
+1 mkdir kishan018
+cd kishan018
+git init
+ls
+ls -a
+git config user.name"KishanGowdaR"
+git config user.email"ffdemonyt16@gmail.com"
+git clone https://github.com/KishanGowdaR/Lab.git
+vi sui.c
+git add sui.c
+git commit -m "Kishan's First commit to Sui.c file"
+git pushu
